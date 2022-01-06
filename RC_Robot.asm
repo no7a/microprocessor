@@ -33,7 +33,7 @@ OUT SPH,R16
 VOID_SET:
 
 
-CALL UART_START // Intializing UART 
+CALL UART_START // Intialization 
 
 CALL INT0_EN // Enable INT0 PIN
 LDI R18,0X0F
